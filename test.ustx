@@ -213,7 +213,7 @@ expressions:
 exp_selectors:
 - dyn
 - pitd
-- clr
+- voic
 - eng
 - vel
 exp_primary: 0
@@ -228,11 +228,9 @@ tempos:
   bpm: 120
 tracks:
 - singer: 重音テト音声ライブラリー
-  phonemizer: OpenUtau.Core.DefaultPhonemizer
+  phonemizer: OpenUtau.Plugin.Builtin.EnXSampaPhonemizer
   renderer_settings:
-    renderer: CLASSIC
-    resampler: worldline
-    wavtool: convergence
+    renderer: WORLDLINE-R
   track_name: Track1
   track_color: Blue
   mute: false
@@ -243,35 +241,11 @@ tracks:
   voice_color_names:
   - ""
 voice_parts:
-- duration: 7680
+- duration: 13440
   name: New Part
   comment: ""
   track_no: 0
   position: 0
-  notes:
-  - position: 0
-    duration: 720
-    tone: 69
-    lyric: あああああ
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 2340
-    duration: 60
-    tone: 65
-    lyric: ""
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
+  notes: []
   curves: []
 wave_parts: []
