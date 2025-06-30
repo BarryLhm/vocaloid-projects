@@ -225,7 +225,7 @@ time_signatures:
   beat_unit: 4
 tempos:
 - position: 0
-  bpm: 120
+  bpm: 118
 tracks:
 - singer: New Geping UTAU Database
   phonemizer: OpenUtau.Plugin.Builtin.ChineseCVVMonophonePhonemizer
