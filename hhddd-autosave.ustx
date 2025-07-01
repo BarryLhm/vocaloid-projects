@@ -213,11 +213,11 @@ expressions:
 exp_selectors:
 - dyn
 - pitd
-- clr
+- tenc
 - eng
 - vel
-exp_primary: 0
-exp_secondary: 1
+exp_primary: 1
+exp_secondary: 2
 key: 0
 time_signatures:
 - bar_position: 0
@@ -246,7 +246,7 @@ tracks:
     renderer: WORLDLINE-R
   track_name: HA
   track_color: Blue
-  mute: false
+  mute: true
   solo: false
   volume: 0
   pan: 0
@@ -323,7 +323,7 @@ voice_parts:
   - position: 1440
     duration: 420
     tone: 64
-    lyric: yao
+    lyric: yao[ya ao]
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -331,7 +331,9 @@ voice_parts:
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 1
+      offset: -176
   - position: 1920
     duration: 360
     tone: 62
@@ -455,7 +457,7 @@ voice_parts:
   - position: 5280
     duration: 120
     tone: 62
-    lyric: jun
+    lyric: zun[zu yun]
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -463,7 +465,9 @@ voice_parts:
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 1
+      offset: -113
   - position: 5400
     duration: 360
     tone: 64
@@ -935,7 +939,7 @@ voice_parts:
   - position: 19200
     duration: 360
     tone: 59
-    lyric: qing
+    lyric: cqing [ci qing]
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -943,7 +947,9 @@ voice_parts:
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 1
+      offset: -194
   - position: 19560
     duration: 120
     tone: 59
@@ -995,7 +1001,7 @@ voice_parts:
   - position: 20640
     duration: 360
     tone: 59
-    lyric: ji
+    lyric: zi[zi i]
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1003,9 +1009,11 @@ voice_parts:
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 1
+      offset: -197
   - position: 21120
-    duration: 360
+    duration: 300
     tone: 60
     lyric: giu [ g i u]
     pitch:
@@ -1024,14 +1032,14 @@ voice_parts:
       offset: -119
     - index: 2
       offset: -206
-  - position: 21480
-    duration: 120
+  - position: 21420
+    duration: 180
     tone: 57
     lyric: +~
     pitch:
       data:
-      - {x: -40, y: 30, shape: io}
-      - {x: 40, y: 0, shape: io}
+      - {x: -60, y: 30, shape: io}
+      - {x: 60, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
@@ -1099,7 +1107,7 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides:
     - index: 1
-      offset: -46
+      offset: -64
   - position: 23520
     duration: 240
     tone: 60
@@ -1127,7 +1135,7 @@ voice_parts:
   - position: 24000
     duration: 360
     tone: 57
-    lyric: cui
+    lyric: cui [ci sui]
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -1135,7 +1143,9 @@ voice_parts:
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 1
+      offset: -183
   - position: 24480
     duration: 360
     tone: 60
@@ -1261,7 +1271,7 @@ voice_parts:
   - position: 27840
     duration: 360
     tone: 62
-    lyric: biu
+    lyric: biu [bi you]
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -1269,11 +1279,13 @@ voice_parts:
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 1
+      offset: -152
   - position: 28320
     duration: 360
     tone: 55
-    lyric: cing [ ci ying]
+    lyric: cqing [ ci qing]
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1287,17 +1299,19 @@ voice_parts:
   - position: 28800
     duration: 240
     tone: 60
-    lyric: chue [chi yue]
+    lyric: chue [qi yue]
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
+      - {x: 61.440678, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
     phoneme_overrides:
+    - index: 2
+      offset: -156
     - index: 1
-      offset: -125
+      offset: -103
   - position: 29040
     duration: 240
     tone: 57
@@ -1325,7 +1339,7 @@ voice_parts:
   - position: 29520
     duration: 240
     tone: 55
-    lyric: cin [ ci yin]
+    lyric: cin [ ce yin]
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -1335,11 +1349,11 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides:
     - index: 1
-      offset: -87
+      offset: -105
   - position: 29760
     duration: 480
     tone: 57
-    lyric: ziao [ zi yao]
+    lyric: ziao [ gei yao]
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -1348,8 +1362,10 @@ voice_parts:
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
     phoneme_overrides:
+    - index: 2
+      offset: -308
     - index: 1
-      offset: -242
+      offset: -240
   - position: 30720
     duration: 360
     tone: 64
@@ -1377,14 +1393,14 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides:
     - index: 1
-      offset: -57
+      offset: -53
   - position: 31200
     duration: 240
     tone: 64
     lyric: ya
     pitch:
       data:
-      - {x: -40, y: 0, shape: io}
+      - {x: -46.61017, y: 0, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
@@ -1511,7 +1527,7 @@ voice_parts:
   - position: 34560
     duration: 360
     tone: 65
-    lyric: you
+    lyric: yao[ yao ou]
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1519,7 +1535,9 @@ voice_parts:
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 1
+      offset: -190
   - position: 34920
     duration: 120
     tone: 65
@@ -1609,7 +1627,7 @@ voice_parts:
   - position: 36960
     duration: 240
     tone: 64
-    lyric: sen
+    lyric: sein [ se e yin]
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1617,7 +1635,9 @@ voice_parts:
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 2
+      offset: -183
   - position: 37200
     duration: 240
     tone: 62
@@ -1647,7 +1667,7 @@ voice_parts:
   - position: 38400
     duration: 240
     tone: 60
-    lyric: ziu[ zi you]
+    lyric: ziu[ ze you]
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1673,7 +1693,7 @@ voice_parts:
   - position: 38880
     duration: 240
     tone: 60
-    lyric: ziu [zi you]
+    lyric: ziu [ze you]
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1711,7 +1731,7 @@ voice_parts:
   - position: 39840
     duration: 420
     tone: 64
-    lyric: fa
+    lyric: fa [fu a]
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1719,11 +1739,13 @@ voice_parts:
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 1
+      offset: -176
   - position: 40320
     duration: 360
     tone: 62
-    lyric: qu
+    lyric: chu [chi yu]
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1731,11 +1753,13 @@ voice_parts:
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 1
+      offset: -198
   - position: 40680
     duration: 120
     tone: 62
-    lyric: qu
+    lyric: chu[chi yu]
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1743,11 +1767,13 @@ voice_parts:
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 1
+      offset: -81
   - position: 40800
     duration: 240
     tone: 62
-    lyric: yao
+    lyric: yao [ ya ou]
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1755,7 +1781,9 @@ voice_parts:
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 1
+      offset: -124
   - position: 41040
     duration: 240
     tone: 64
@@ -1833,7 +1861,7 @@ voice_parts:
   - position: 43200
     duration: 420
     tone: 62
-    lyric: ko [ku o]
+    lyric: ko [ku ho]
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -1843,7 +1871,7 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides:
     - index: 1
-      offset: -212
+      offset: -182
   - position: 43680
     duration: 420
     tone: 55
@@ -1859,7 +1887,7 @@ voice_parts:
   - position: 44160
     duration: 240
     tone: 60
-    lyric: yao
+    lyric: yao [ya ou]
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1867,11 +1895,13 @@ voice_parts:
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 1
+      offset: -99
   - position: 44400
     duration: 240
     tone: 57
-    lyric: wan
+    lyric: wan [wa en]
     pitch:
       data:
       - {x: -40, y: 30, shape: io}
@@ -1879,11 +1909,13 @@ voice_parts:
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 1
+      offset: -89
   - position: 44640
     duration: 240
     tone: 57
-    lyric: wan
+    lyric: wan[wa en]
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1891,11 +1923,13 @@ voice_parts:
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 1
+      offset: -89
   - position: 44880
     duration: 240
     tone: 55
-    lyric: ming
+    lyric: ming[me ying]
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -1903,7 +1937,9 @@ voice_parts:
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 1
+      offset: -98
   - position: 45120
     duration: 480
     tone: 57
@@ -1956,8 +1992,11 @@ voice_parts:
     - 19070
     - 19075
     - 19085
-    - 19105
-    - 19110
+    - 20135
+    - 20425
+    - 21085
+    - 21805
+    - 21810
     - 30415
     ys:
     - 0
@@ -1996,7 +2035,10 @@ voice_parts:
     - -692
     - -697
     - 3
-    - -1
+    - 3
+    - 0
+    - 3
+    - 0
     - 3
     - 0
     abbr: pitd
@@ -2007,6 +2049,26 @@ voice_parts:
     - 0
     - 0
     abbr: dyn
+  - xs:
+    - 19120
+    - 19125
+    - 19130
+    - 19135
+    - 22720
+    ys:
+    - 0
+    - 45
+    - 45
+    - 0
+    - 0
+    abbr: tenc
+  - xs:
+    - 18980
+    - 20425
+    ys:
+    - 100
+    - 100
+    abbr: voic
 - duration: 44160
   name: New Part
   comment: ""
