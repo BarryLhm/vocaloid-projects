@@ -1,0 +1,45 @@
+#1
+built on latest linux kernel
+c runtime library is musl
+which command to manage services
+dinitctl
+#2
+
+
+why are cli tools different
+from freebsd
+#3
+whole system built with llvm
+
+alpine package keeper version 3
+newer than alpine
+#4
+package not fount build it yourself
+build system highly automatical
+what if source tarball hash mismatch
+do .(dot)/(slash)cbuild update check
+#5
+flatpak is far not enough
+user triggered kernel panic
+distrobox enter debian
+glibc based program workaround--
+#6
+would be nice if all the world is musl compatible
+by the way i use ar(_ch_)
+#7
+chi chi chi chi-me chi-me
+chi chimera linux
+general purpose sy/s/tem
+#8
+manually patch every single shell script
+to make it bsd compatible
+#9
+
+
+#10
+
+
+#11
+
+
+#END
