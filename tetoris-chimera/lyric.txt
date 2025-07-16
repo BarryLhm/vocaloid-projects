@@ -1,4 +1,4 @@
-#1
+#1 [finished]
 built on latest linux kernel
 c runtime library is musl
 which command to manage services
@@ -18,7 +18,7 @@ package not fount build it yourself
 build system highly automatical
 what if source tarball hash mismatch
 do .(dot)/(slash)cbuild update check
-#5
+#5 [finished]
 flatpak is far not enough
 user triggered kernel panic
 distrobox enter debian
@@ -26,10 +26,10 @@ glibc based program workaround--
 #6
 would be nice if all the world is musl compatible
 by the way i use ar(_ch_)
-#7
+#7 [finished]
 chi chi chi chi-me chi-me
 chi chimera linux
-general purpose sy/s/tem
+general purpose sy-s-tem
 #8
 manually patch every single shell script
 to make it bsd compatible
