@@ -1,5 +1,5 @@
 orig: テトリス(by 柊マグネタイト 様)
-vocal: 重音テト
+vocal: 重音テト(UTAU)
 lyric: BarryLhm
 
 #1
@@ -35,7 +35,7 @@ chi chimera linux
 general purpose sy-s-tem
 #8
 manually patch every single shell script
-to make it bsd compatible
+to make them bsd compatible
 #9 [wip]
 
 

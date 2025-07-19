@@ -231,7 +231,7 @@ time_signatures:
   beat_unit: 4
 tempos:
 - position: 0
-  bpm: 150
+  bpm: 170
 tracks:
 - singer: 重音テト音声ライブラリー
   phonemizer: OpenUtau.Plugin.Builtin.EnXSampaPhonemizer
@@ -422,24 +422,12 @@ voice_parts:
     - {index: 2, abbr: vel, value: 200}
     phoneme_overrides: []
   - position: 1680
-    duration: 180
+    duration: 240
     tone: 60
     lyric: +
     pitch:
       data:
       - {x: -9, y: 30, shape: io}
-      - {x: 8, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 1860
-    duration: 60
-    tone: 61
-    lyric: +
-    pitch:
-      data:
-      - {x: -9, y: -10, shape: io}
       - {x: 8, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
@@ -451,7 +439,7 @@ voice_parts:
     lyric: c[s - i]
     pitch:
       data:
-      - {x: -9, y: 0, shape: io}
+      - {x: -9, y: -10, shape: io}
       - {x: 8, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
