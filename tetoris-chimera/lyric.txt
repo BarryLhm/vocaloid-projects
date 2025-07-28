@@ -7,18 +7,18 @@ built on latest linux kernel
 c runtime library is musl
 which command to manage services
 dinitctl
-#2 [wip_]
-------
-------
-why are cli tools look different
+#2
+clean and consistent modern design
+pipewire works fine out of the box
+why do userland tools look different
 from freebsd
-#3 [wip_]
+#3
 whole system built with llvm
-------
+strong hardening and optimizations
 alpine package keeper version 3
 newer than alpine
-#4 [wip_]
-------
+#4
+
 build system highly automatical
 do .(dot)/(slash)cbuild update check
 #5
