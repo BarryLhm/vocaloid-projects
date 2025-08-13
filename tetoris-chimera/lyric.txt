@@ -3,44 +3,50 @@ vocal: 重音テト(UTAU)
 lyric: BarryLhm
 
 #1
-built on latest linux kernel
-c runtime library is musl
-which command to manage services
-dinitctl
+built on latest linux kernel           | F
+c runtime library is musl              | F
+which command to manage services       | F
+dinitctl                               | F
 #2
-clean and consistent modern design
-pipewire works fine out of the box
-why do userland tools look different
-from freebsd
+                                       |
+                                       |
+why do userland tools look different   | F
+from freebsd                           | F
 #3
-whole system built with llvm
-strong hardening and optimizations
-alpine package keeper version 3
-newer than alpine
+whole system built with llvm           |
+high performance mem allocator         |
+alpine package keeper version 3        | F
+newer than alpine                      | F
 #4
-
-build system highly automatical
-do .(dot)/(slash)cbuild update check
+                                       |
+build system highly automatical        | F
+what if source tarball hash mismatch   | F
+do .(dot)/(slash)cbuild update check   | F
 #5
-flatpak is far not enough
-user triggered kernel panic
-distrobox enter debian
-glibc based program workaround--
+flatpak is far not enough              | F
+user triggered kernel panic            | F
+distrobox enter debian                 | F
+glibc based program workaround--       | F
 #6
-would be nice if all the world is musl compatible
-by the way i use ar(_ch_)
+would be nice if all                   | F
+the world is musl compatible           | F
+by the way i use ar(_ch_)              | F
 #7
-chi chi chi chi-me chi-me
-chi chimera linux
-general purpose sy-s-tem
+chi chi chi chi-me chi-me              | F
+chi chimera linux                      | F
+general purpose sy-s-tem               | F
 #8
-manually patch every single shell script
-to make them bsd compatible
-#9 [wip]
-
-
+manually patch every                   | F
+single shell script to make            | F
+them bsd compatible                    | F
+#9
+remove systemd                         | R
+services and dont                      | R
+forget to install licenses             | R
 #10
-
+use tmpfs to
+speed up builds
+and
 
 #11
 
