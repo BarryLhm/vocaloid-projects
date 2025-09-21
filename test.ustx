@@ -238,7 +238,7 @@ tracks:
     renderer: WORLDLINE-R
   track_name: Track1
   track_color: Blue
-  mute: true
+  mute: false
   solo: false
   volume: 6.2926829268292686
   pan: 0
