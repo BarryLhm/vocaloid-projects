@@ -17618,11 +17618,11 @@ voice_parts:
     - 0
     abbr: dyn
 wave_parts:
-- name: trailer_bg_-4.wav
+- name: trailer_bg-4.mp3
   comment: ""
   track_no: 0
   position: 97
-  relative_path: ../../../../Desktop/ultratrailer/trailer_bg_-4.wav
-  file_duration_ms: 325568.2083
+  relative_path: ../resources/NONFREE/trailer_bg-4.mp3
+  file_duration_ms: 325608
   skip_ms: 0
   trim_ms: 0
